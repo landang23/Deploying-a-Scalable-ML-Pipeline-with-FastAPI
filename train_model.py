@@ -14,7 +14,8 @@ from ml.model import (
 )
 
 project_path = "data/"
-data_path = os.path.join(project_path, "data", "census.csv")
+#data_path = os.path.join(project_path, "data", "census.csv")
+data_path = os.path.join(project_path, "census.csv")
 print(data_path)
 data = pd.read_csv(data_path)
 
