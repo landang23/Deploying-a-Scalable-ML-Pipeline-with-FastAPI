@@ -13,7 +13,7 @@ from ml.model import (
     train_model,
 )
 
-project_path = "/Users/landangeorge/Documents/WGU/udacity/D501/Project_2/Deploying-a-Scalable-ML-Pipeline-with-FastAPI/"
+project_path = "data/"
 data_path = os.path.join(project_path, "data", "census.csv")
 print(data_path)
 data = pd.read_csv(data_path)

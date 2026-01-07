@@ -26,10 +26,10 @@ class Data(BaseModel):
     hours_per_week: int = Field(..., example=40, alias="hours-per-week")
     native_country: str = Field(..., example="United-States", alias="native-country")
 
-path = "/Users/landangeorge/Documents/WGU/udacity/D501/Project_2/Deploying-a-Scalable-ML-Pipeline-with-FastAPI/model/encoder.pkl"
+path = "model/encoder.pkl"
 encoder = load_model(path)
 
-path = "/Users/landangeorge/Documents/WGU/udacity/D501/Project_2/Deploying-a-Scalable-ML-Pipeline-with-FastAPI/model/model.pkl"
+path = "model/model.pkl"
 model = load_model(path)
 
 # Create a RESTful API using FastAPI
